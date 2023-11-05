@@ -50,7 +50,7 @@ public class Demo {
 			statement = connection.createStatement();
 						
 			String selectQuery = String.format(
-					"SELECT NAME, COUNTRY from mydb.player", new Object [] {});		
+					"SELECT player_name, country_name from mydb.player", new Object [] {});		
 			
 			System.out.println(selectQuery);
 			

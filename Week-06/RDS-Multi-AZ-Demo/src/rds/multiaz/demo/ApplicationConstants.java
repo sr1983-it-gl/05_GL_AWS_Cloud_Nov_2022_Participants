@@ -7,7 +7,7 @@ public class ApplicationConstants {
 
 	public static String HOST = 
 			
-"rds-mysql-multi-az-instance-01.cnq8huiucjab.us-east-1.rds.amazonaws.com";
+"rds-multi-az-db-instance-01.cnq8huiucjab.us-east-1.rds.amazonaws.com";
 	
 	public static String DB_NAME = "mydb";
 	
